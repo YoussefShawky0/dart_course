@@ -1,0 +1,12 @@
+class Student{
+    String name;
+    int age;
+    double GPA;
+Student({required String name,required this.age, required this.GPA })
+
+
+}
+
+void main(){
+
+}
