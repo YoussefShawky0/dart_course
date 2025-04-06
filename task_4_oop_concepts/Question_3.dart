@@ -18,7 +18,7 @@ class Teacher extends Person {
 
 void main() {
   Student student = Student();
-  Teacher teacher = Teacher();
   student.work();
+  Teacher teacher = Teacher();
   teacher.work();
 }
