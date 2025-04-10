@@ -19,13 +19,16 @@ class BankAccount {
   }
 
   double get amount {
+    
     return _amount;
   }
 }
 
 void main() {
+  
   BankAccount bankMemeber = BankAccount();
   bankMemeber.name = 'Youssef Shawky';
   bankMemeber.amount = 9000.98;
   print('Name of user:${bankMemeber.name}\nBalance:${bankMemeber.amount}USD' );
+  
 }
